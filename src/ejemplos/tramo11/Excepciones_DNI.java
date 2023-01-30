@@ -29,7 +29,7 @@ public class Excepciones_DNI {
                                     El DNI: """+DNIsinletra+" y la LETRA: "+letra
                                   + "   °°° NO SON CORRECTOS !!!"+"\n"
                                   + "Yo creo que es FALSO,"+"\n"
-                                  + "°°° CUIDADO CON ESE P√ÅJARO !!!");
+                                  + "°°° CUIDADO CON ESE P¡JARO !!!");
         }
     }
     public static void main(String[] args) {

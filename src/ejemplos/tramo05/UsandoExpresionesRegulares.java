@@ -76,19 +76,19 @@ public class UsandoExpresionesRegulares {
         [\\w-]+          -->Inicio del email
                             El signo + indica que debe aparecer uno o más de los caracteres entre corchetes:
                             \\w indica caracteres de la A a la Z tanto mayúsculas como minúsculas, dí­gitos del 0 al 9 y el carácter _
-                            Carácter â€“
-                            En lugar de usar \\w podemos escribir el rango de caracteres con lo que esta expresiÃ³n quedarÃ­a asÃ­:
+                            Carácter @
+                            En lugar de usar \\w podemos escribir el rango de caracteres con lo que esta expresión quedarí­a así­:
                             [A-Za-z0-9-_]+
         
-        (\\.[\\w-]+)*    -->A continuaciÃ³n:
-                            El * indica que este grupo puede aparecer cero o mÃ¡s veces. 
-                            El email puede contener de forma opcional  un punto seguido de uno o mÃ¡s de los caracteres entre corchetes.
+        (\\.[\\w-]+)*    -->A continuación:
+                            El * indica que este grupo puede aparecer cero o más veces. 
+                            El email puede contener de forma opcional  un punto seguido de uno o más de los caracteres entre corchetes.
         
-        @                -->A continuaciÃ³n debe contener el carÃ¡cter @
+        @                -->A continuación debe contener el carácter @
         
-        [A-Za-z0-9]+     -->DespuÃ©s de la @ el email debe contener uno o mÃ¡s de los caracteres que aparecen entre los corchetes
+        [A-Za-z0-9]+     -->Después de la @ el email debe contener uno o más de los caracteres que aparecen entre los corchetes
         
-        (\\.[A-Za-z0-9]+)*  -->Seguido (opcional, 0 Ã³ mÃ¡s veces) de un punto y 1 Ã³ mÃ¡s de los caracteres entre corchetes
+        (\\.[A-Za-z0-9]+)*  -->Seguido (opcional, 0 ó más veces) de un punto y 1 ó más de los caracteres entre corchetes
         
         (\\.[A-Za-z]{2,})   -->Seguido de un punto y al menos 2 de los caracteres que aparecen entre corchetes (final del email)
         */
